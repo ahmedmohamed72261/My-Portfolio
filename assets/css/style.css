@@ -1241,7 +1241,7 @@ textarea.input{
         margin-top: var(--mb-3);
     }
     .portfolio__popup-inner{
-        width: 450px;
+        width: 80%;
         padding: 2.8rem 1.5rem 2.5rem;
         height: auto;
     }
@@ -1285,7 +1285,7 @@ textarea.input{
         left: initial;
     } */
     *{
-        margin: 0;
+        margin: unset;
         padding: 0;
     }
     .home{
@@ -1385,6 +1385,13 @@ textarea.input{
     /* .about__box{
         margin-bottom: 1rem;
     } */
+    *{
+        margin: unset;
+    }
+    .container{
+        margin: 0;
+        padding: 0;
+    }
     .about__info{
         grid-template-columns: repeat(2, 1fr);
         row-gap: 0.5rem;
