@@ -1268,9 +1268,14 @@ textarea.input{
     }
     .about__data{
         padding: 0;
+        text-align: center;
+    }
+    .about__heading{
+        max-width: 80%;
+        margin: auto;
     }
     .about__description{
-        max-width: 400px;
+        max-width: 80%;
     }
 }
 
