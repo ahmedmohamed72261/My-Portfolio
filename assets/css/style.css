@@ -1319,15 +1319,28 @@ textarea.input{
     .my__info{
         display: none;
     }
+    .about__img{
+        max-width: 70%;
+        justify-content: center;
+    }
+    .about__container{
+        justify-content: center;
+    }
     .about__info{
         grid-template-columns: repeat(3, 160px);
         padding: 7px;
         display: flex;
         flex-wrap: wrap;
     }
+    .about__data{
+        max-width: 70%;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: auto;
+    }
     .about__description{
         padding: 0;
-        max-width: 400px;
+        max-width: 90%;
     }
     .service__modal-content{
         padding: 4.5rem 1.5rem 2.5rem;
