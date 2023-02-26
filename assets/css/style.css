@@ -1284,8 +1284,9 @@ textarea.input{
         right: initial;
         left: initial;
     } */
-    .container{
-        margin: unset;
+    *{
+        margin: 0;
+        padding: 0;
     }
     .home{
         background-image: none;
@@ -1342,6 +1343,7 @@ textarea.input{
         justify-content: center;
         flex-wrap: wrap;
         margin: auto;
+        padding: 3px;
     }
     .about__description{
         max-width: 90%;
