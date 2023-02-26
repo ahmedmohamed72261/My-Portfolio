@@ -1344,7 +1344,6 @@ textarea.input{
         margin: auto;
     }
     .about__description{
-        padding: 0;
         max-width: 90%;
     }
     .service__modal-content{
