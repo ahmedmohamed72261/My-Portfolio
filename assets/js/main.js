@@ -4,7 +4,6 @@ const navMenu = document.getElementById('sidebar'),
     navClose = document.getElementById('nav-close')
 
 /*===== SIDEBAR SHOW =====*/
-// Hi, I'm Ahmed Mohamed Full Stack JavaScript developer High-level experience in web design and development knowledge, producing quality work
 /* Validate If Constant Exists */
 if (navToggle) {
     navToggle.addEventListener("click", () =>{

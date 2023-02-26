@@ -70,8 +70,8 @@
 
 /*=============== BASE ===============*/
 *{
-    margin: 0;
-    padding: 0;
+    /* margin: 0; */
+    /* padding: 0; */
     box-sizing:border-box;
 
 }
@@ -251,6 +251,7 @@ main{
 
 /*===== Home Section =====*/
 .home{
+    width: 100%;
     background: url(../img/home-bg.png);
     background-size: cover;
     background-position: center center;
@@ -1132,7 +1133,7 @@ textarea.input{
         z-index: var(--z-fixed);
     }
     .about__img{
-        width: 400px;
+        width: 350px;
         margin-left: auto;
         margin-right: auto;
         padding: 20px 0;
@@ -1158,6 +1159,7 @@ textarea.input{
     }
     .main{
         margin-left: 0;
+        margin-right: 0;
     }
     .testimonial__card{
         padding: 1.25rem 1.5rem;
@@ -1192,6 +1194,18 @@ textarea.input{
     .skills__container{
         grid-template-columns: 300px;
         row-gap: 3rem;
+    }
+    .my__info{
+        flex-wrap: wrap;
+    }
+    .info__item{
+        padding-top: 10px;
+    }
+    .about__img{
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px 0;
     }
     .work__container{
         grid-template-columns: 330px;
@@ -1248,8 +1262,15 @@ textarea.input{
     .testimonial__card{
         margin-left: 5px;
     }
+    .testimonials{
+        max-width: 90%;
+        margin: auto;
+    }
     .about__data{
         padding: 0;
+    }
+    .about__description{
+        max-width: 400px;
     }
 }
 
@@ -1258,7 +1279,9 @@ textarea.input{
         right: initial;
         left: initial;
     } */
-
+    .container{
+        margin: unset;
+    }
     .home{
         background-image: none;
         height: initial;
@@ -1364,5 +1387,8 @@ textarea.input{
     }
     .service__content{
         padding-right: 6rem;
+    }
+    .about__data{
+        max-width: 95%;
     }
 }
