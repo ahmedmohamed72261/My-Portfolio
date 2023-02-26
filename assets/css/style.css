@@ -1346,7 +1346,7 @@ textarea.input{
         padding: 3px;
     }
     .about__description{
-        max-width: 90%;
+        max-width: 80%;
     }
     .service__modal-content{
         padding: 4.5rem 1.5rem 2.5rem;
